@@ -76,7 +76,7 @@ h1{
 #testimonials{
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
+
   text-align: center;
 }
 .testimonial-header{
@@ -89,6 +89,10 @@ h1{
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
 
 #press{
