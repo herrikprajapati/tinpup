@@ -13,6 +13,7 @@ h1{
 
 
 .container-fluid{
+
   padding: 3% 15%;
 }
 
@@ -20,6 +21,29 @@ h1{
 
 .download-button{
   margin: 5% 3% 5% 0;
+}
+
+/* Feature-Section */
+.feature-icon{
+ padding: 5%;
+ color: #ef8172;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.features-data{
+  margin: 5% 0;
+  padding: 3%;
+}
+
+.feature-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature-description{
+  color: #8f8f8f;
 }
 
 
@@ -50,6 +74,10 @@ h1{
   width: 60%;
 }
 
+.title-image-Div{
+  text-align: center;
+}
+
 
 
 /**** ID SELECTORS ****/
@@ -57,4 +85,9 @@ h1{
 #title{
   background-color: #ff4c68;
   color: #FFFFFF;
+}
+
+#features{
+  color: #40514e;
+  text-align: center;
 }
