@@ -24,6 +24,11 @@ h1{
 }
 
 /* Feature-Section */
+#features{
+  color: #40514e;
+  padding: 7% 15%;
+}
+
 .feature-icon{
  padding: 5%;
  color: #ef8172;
@@ -32,12 +37,13 @@ h1{
   color: #ff4c68;
 }
 
-.features-data{
-  margin: 5% 0;
+.feature-box{
   padding: 3%;
+  text-align: center;
 }
 
 .feature-head{
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -68,6 +74,14 @@ h1{
 }
 
 /* Title Image */
+#title{
+  background-color: #ff4c68;
+  color: #FFFFFF;
+}
+
+.title-div{
+  overflow: hidden; /*To prevent the title image from overflowing the div height/ ViewPort height. */
+}
 
 .title-image{
   transform: rotate(25deg);
@@ -81,13 +95,3 @@ h1{
 
 
 /**** ID SELECTORS ****/
-
-#title{
-  background-color: #ff4c68;
-  color: #FFFFFF;
-}
-
-#features{
-  color: #40514e;
-  text-align: center;
-}
