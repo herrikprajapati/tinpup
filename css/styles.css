@@ -23,6 +23,25 @@ h1{
   margin: 5% 3% 5% 0;
 }
 
+/* Title Image */
+#title{
+  background-color: #ff4c68;
+  color: #FFFFFF;
+}
+
+.title-div{
+  overflow: hidden; /*To prevent the title image from overflowing the div height/ ViewPort height. */
+}
+
+.title-image{
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+.title-image-Div{
+  text-align: center;
+}
+
 /* Feature-Section */
 #features{
   color: #40514e;
@@ -53,6 +72,36 @@ h1{
 }
 
 
+/* Testimonial Section */
+#testimonials{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.testimonial-header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
 /* Navbar Section */
 .navbar{
   padding: 0 0 4.5rem;
@@ -72,26 +121,3 @@ h1{
   font-size: 1.3rem;
   font-weight: 300;
 }
-
-/* Title Image */
-#title{
-  background-color: #ff4c68;
-  color: #FFFFFF;
-}
-
-.title-div{
-  overflow: hidden; /*To prevent the title image from overflowing the div height/ ViewPort height. */
-}
-
-.title-image{
-  transform: rotate(25deg);
-  width: 60%;
-}
-
-.title-image-Div{
-  text-align: center;
-}
-
-
-
-/**** ID SELECTORS ****/
