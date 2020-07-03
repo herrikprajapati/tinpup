@@ -128,6 +128,21 @@ h1{
   font-size: 1.5rem;
 }
 
+/* Call to Action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.cta-header{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Navbar Section */
 .navbar{
   padding: 0 0 4.5rem;
