@@ -14,7 +14,7 @@ h1{
 
 .container-fluid{
 
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Button */
@@ -29,23 +29,22 @@ h1{
   color: #FFFFFF;
 }
 
-.title-div{
-  overflow: hidden; /*To prevent the title image from overflowing the div height/ ViewPort height. */
-}
+
 
 .title-image{
   transform: rotate(25deg);
   width: 60%;
+  position: absolute;
+  right: 30%;
 }
 
-.title-image-Div{
-  text-align: center;
-}
 
 /* Feature-Section */
 #features{
+  background-color: #fff;
   color: #40514e;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-icon{
@@ -104,6 +103,29 @@ h1{
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.pricing-head{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-card-head{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /* Navbar Section */
