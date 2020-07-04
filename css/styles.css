@@ -9,30 +9,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid{
-  padding: 7% 15%;
-}
-
-/* Navbar Section */
-.navbar{
-  padding: 0 0 4.5rem;
-}
-.navbar-brand{
-
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav-item{
-  padding: 0 18px;
-}
-
-.nav-link{
-  font-size: 1.3rem;
-  font-weight: 300;
-}
-
 
 /* Headings */
 .big-heading{
@@ -55,21 +31,56 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1.5;
 }
 
-/* Button */
 
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* Navbar Section */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+
+/* Buttons */
 .download-button{
   margin: 5% 3% 5% 0;
 }
 
-/* Title Section */
-#title{
-  text-align: left;
-  background-color: #ff4c68;
-  color: #FFFFFF;
-}
 
+/* Title Section */
 #title .container-fluid{
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .title-image{
@@ -97,7 +108,6 @@ h1, h2, h3, h4, h5, h6{
 
 .feature-box{
   padding: 3%;
-
 }
 
 .feature-description{
@@ -107,9 +117,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Testimonial Section */
 #testimonials{
-  background-color: #ff4c68;
-  color: #fff;
-
+  background-color: #ef8172;
 }
 
 .testimonial-image{
@@ -118,9 +126,8 @@ h1, h2, h3, h4, h5, h6{
   margin: 20px;
 }
 
-
 #press{
-  background-color: #ff4c68;
+  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -129,12 +136,8 @@ h1, h2, h3, h4, h5, h6{
   margin: 20px 20px 50px;
 }
 
+
 /* Pricing Section */
-#pricing{
-  color: #000;
-
-
-}
 .pricing-column{
   padding: 3% 2%;
 }
@@ -145,18 +148,8 @@ h1, h2, h3, h4, h5, h6{
   font-size: 1.5rem;
 }
 
-/* Call to Action Section*/
-#cta{
-  background-color: #ff4c68;
-}
-
-
 
 /* Footer Section */
-#footer{
-  background-color: #fff;
-}
-
 .footer-icon{
   padding: 1.5%;
 }
