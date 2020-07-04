@@ -2,13 +2,15 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
 }
 
 /* Navbar Section */
@@ -32,9 +34,25 @@ h1{
 }
 
 
-.container-fluid{
+/* Headings */
+.big-heading{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
 
-  padding: 3% 15% 7%;
+.feature-title{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.section-heading{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Button */
@@ -43,13 +61,16 @@ h1{
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title Section */
 #title{
+  text-align: left;
   background-color: #ff4c68;
   color: #FFFFFF;
 }
 
-
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
 
 .title-image{
   transform: rotate(25deg);
@@ -63,7 +84,6 @@ h1{
 #features{
   background-color: #fff;
   color: #40514e;
-  padding: 7% 15%;
   position: relative;
 }
 
@@ -77,15 +97,9 @@ h1{
 
 .feature-box{
   padding: 3%;
-  text-align: center;
+
 }
 
-.feature-head{
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
 .feature-description{
   color: #8f8f8f;
 }
@@ -96,27 +110,17 @@ h1{
   background-color: #ff4c68;
   color: #fff;
 
-  text-align: center;
 }
-.testimonial-header{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
+
 .testimonial-image{
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
-}
 
 #press{
   background-color: #ff4c68;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -127,22 +131,15 @@ h1{
 
 /* Pricing Section */
 #pricing{
-  padding: 7% 15%;
-  text-align: center;
+  color: #000;
+
+
 }
 .pricing-column{
   padding: 3% 2%;
 }
 
-.pricing-head{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 .price-card-head{
-  color: black;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -151,23 +148,13 @@ h1{
 /* Call to Action Section*/
 #cta{
   background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
 }
 
-.cta-header{
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
+
 
 /* Footer Section */
 #footer{
   background-color: #fff;
-  text-align: center;
-  padding: 3% 15%;
 }
 
 .footer-icon{
